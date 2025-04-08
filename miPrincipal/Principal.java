@@ -34,11 +34,25 @@ public class Principal {
                        ,new String("Esto es una cadena")
                        ,new Integer(34)
                     };
+        MuestraConjunto.mostrar(arr);
+
+        //uso del paquete abstractas
+
+        abstractas.Perro perro2 = new  abstractas.Perro();
+        perro2.hacerSonido();
+
+        abstractas.Gato gato2 = new  abstractas.Gato();
+        gato2.hacerSonido();
+
+        abstractas.Animal a = new abstractas.Animal();// Esto no es posible
+
+
+
+
+
 
         
-        for (int i=0; i<arr.length;i++){
-            System.out.println(arr[i]);
-        }
+       
 
 
 
