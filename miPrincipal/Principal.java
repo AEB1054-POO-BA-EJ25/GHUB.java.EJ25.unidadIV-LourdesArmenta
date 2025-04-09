@@ -1,5 +1,8 @@
 package miPrincipal;
 import fecha.*;
+import abstractas.Circulo;
+import abstractas.Rectangulo;
+import abstractas.Triangulo;;
 
 public class Principal {
    
@@ -44,8 +47,21 @@ public class Principal {
         abstractas.Gato gato2 = new  abstractas.Gato();
         gato2.hacerSonido();
 
-        abstractas.Animal a = new abstractas.Animal();// Esto no es posible
+       // abstractas.Animal a = new abstractas.Animal();// Esto no es posible
+       
+       //probamos clases derivada de la abstracta
 
+       Circulo c = new Circulo(4.0);
+
+       Rectangulo r = new Rectangulo(10.5,5.1);
+
+       Triangulo t = new Triangulo(3.0,6.0);
+
+       
+
+       System.out.println(c);
+       System.out.println(r);
+       System.out.println(t);
 
 
 
