@@ -2,7 +2,8 @@ package miPrincipal;
 import fecha.*;
 import abstractas.Circulo;
 import abstractas.Rectangulo;
-import abstractas.Triangulo;;
+import abstractas.Triangulo;
+import abstractas.FiguraGeometrica;
 
 public class Principal {
    
@@ -63,20 +64,12 @@ public class Principal {
        System.out.println(r);
        System.out.println(t);
 
+       FiguraGeometrica arreglo2[]={ c, r,t};
 
+       double prom = FiguraGeometrica.areaPromedio(arreglo2);
 
-
-
-        
-       
-
-
-
-
-
-        
-
-        
+       System.out.println("Promedio ="+prom);
+  
         
     }
 }

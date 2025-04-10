@@ -1,5 +1,5 @@
 package abstractas;
- abstract class FiguraGeometrica{
+ public abstract class FiguraGeometrica{
     //atributos
     protected double x;
     protected double y;
@@ -25,6 +25,15 @@ package abstractas;
     //metodo concreto
     public String toString(){
         return nombre+" area = "+area();
+    }
+    //Método estaticos
+    public static double areaPromedio( FiguraGeometrica arr[]){
+        double suma = 0;
+        for(int i=0;i<arr.length;i++){
+            suma = suma +arr[i].area();
+        }
+        return suma/arr.length;
+
     }
     //getter y setter
     public String getNombre(){
