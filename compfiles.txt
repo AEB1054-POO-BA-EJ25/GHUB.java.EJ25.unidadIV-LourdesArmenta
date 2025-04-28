@@ -1,3 +1,5 @@
+./interfases/Dog.java
+./interfases/Animal.java
 ./miPrincipal/Gato.java
 ./miPrincipal/Perro.java
 ./miPrincipal/MuestraConjunto.java
