@@ -4,6 +4,8 @@ import abstractas.Circulo;
 import abstractas.Rectangulo;
 import abstractas.Triangulo;
 import abstractas.FiguraGeometrica;
+import genericidad.Caja;
+import genericidad.Utilidades;
 
 public class Principal {
    
@@ -69,6 +71,35 @@ public class Principal {
        double prom = FiguraGeometrica.areaPromedio(arreglo2);
 
        System.out.println("Promedio ="+prom);
+
+       //Utilizando genericidad
+       Caja<String> miCaja = new Caja<>();
+       miCaja.setContenido("Luisa");
+       System.out.println(miCaja);
+
+       Caja<Integer> miCaja2 = new Caja<>();
+       miCaja2.setContenido(5);
+       System.out.println(miCaja2);
+
+       Caja<Double> miCaja3 = new Caja<>();
+       miCaja3.setContenido(3.1416);
+       System.out.println(miCaja3);
+
+       //uso de metodos genericos
+
+       Integer [] arregloEnteros = {5,7,90,14,10};
+       Utilidades.imprimirArra(arregloEnteros);
+
+       String [] arregloString = {"Lucia","Juan","Pedro"};
+       Utilidades.imprimirArra(arregloString);
+       
+
+
+
+
+
+
+       
   
         
     }
