@@ -1,3 +1,14 @@
+./desacoplar/PalomaMensajera.java
+./desacoplar/MiAplicacionDeMensajes.java
+./desacoplar/Comunicador.java
+./desacoplar/Util.java
+./desacoplar/TelefonoCelular.java
+./desacoplar/Telegrafo.java
+./desacoplar/Alumno.java
+./desacoplar/Ave.java
+./desacoplar/Reliquia.java
+./desacoplar/Paloma.java
+./desacoplar/Telefono.java
 ./interfases/Dog.java
 ./interfases/Pet.java
 ./interfases/Animal.java
