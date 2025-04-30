@@ -9,6 +9,11 @@ public class MiAplicacionDeMensajes{
         t3.enviarMensaje("mensaje");
         t2.enviarMensaje("mensaje");
         t1.enviarMensaje("mensaje");
+
+        Comunicador c = ComunicadorManager.crearComunicador();
+        c.enviarMensaje("Hola, este es mi mensaje");
+
+        
         
     }
 }
