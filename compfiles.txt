@@ -3,12 +3,17 @@
 ./desacoplar/Comunicador.java
 ./desacoplar/Util.java
 ./desacoplar/TelefonoCelular.java
+./desacoplar/TestOrdenar.java
+./desacoplar/CriterioAlumnoNotaProm.java
+./desacoplar/TestCriterio.java
 ./desacoplar/Telegrafo.java
 ./desacoplar/Alumno.java
 ./desacoplar/Ave.java
 ./desacoplar/Reliquia.java
 ./desacoplar/Paloma.java
 ./desacoplar/Telefono.java
+./desacoplar/CriterioAlumnoNombre.java
+./desacoplar/Criterio.java
 ./interfases/Dog.java
 ./interfases/Pet.java
 ./interfases/Animal.java
