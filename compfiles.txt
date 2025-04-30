@@ -12,6 +12,7 @@
 ./desacoplar/Reliquia.java
 ./desacoplar/Paloma.java
 ./desacoplar/Telefono.java
+./desacoplar/ComunicadorManager.java
 ./desacoplar/CriterioAlumnoNombre.java
 ./desacoplar/Criterio.java
 ./interfases/Dog.java
